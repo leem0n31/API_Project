@@ -1,0 +1,1444 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\user\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\user\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754FC069-D67B-A9D7-50A1-8D1CA196D8F1}|\u042D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0440\u0435\u0448\u0435\u043D\u0438\u044F{754FC069-D67B-A9D7-50A1-8D1CA196D8F1}|C:\\Users\\Student\\Desktop\\project1\\.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\controllers\\absencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:controllers\\absencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\controllers\\dutydebtcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:controllers\\dutydebtcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\controllers\\dutyschedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:controllers\\dutyschedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\controllers\\groupmembershipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:controllers\\groupmembershipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\controllers\\roleassignmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:controllers\\roleassignmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\controllers\\replacementrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:controllers\\replacementrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\notification\\updatenotificationtrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\notification\\updatenotificationtrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\controllers\\studygroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:controllers\\studygroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\absence\\createabsencerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\absence\\createabsencerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\absence\\getabsenceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\absence\\getabsenceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\absence\\postabsenceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\absence\\postabsenceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\absence\\updateabsencerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\absence\\updateabsencerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\dutydebt\\postdutydebtresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\dutydebt\\postdutydebtresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\dutydebt\\updatedutydebtrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\dutydebt\\updatedutydebtrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\dutydebt\\getdutydebtresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\dutydebt\\getdutydebtresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\dutydebt\\createdutydebtrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\dutydebt\\createdutydebtrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\dutyschedule\\postdutyscheduleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\dutyschedule\\postdutyscheduleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\dutyschedule\\updatedutyschedulerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\dutyschedule\\updatedutyschedulerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\dutyschedule\\getdutyscheduleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\dutyschedule\\getdutyscheduleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\dutyschedule\\createdutyschedulerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\dutyschedule\\createdutyschedulerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\groupmembership\\updategroupmembershiprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\groupmembership\\updategroupmembershiprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\groupmembership\\postgroupmembershipresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\groupmembership\\postgroupmembershipresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\groupmembership\\getgroupmembershipresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\groupmembership\\getgroupmembershipresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\groupmembership\\creategroupmembershiprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\groupmembership\\creategroupmembershiprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\roleassignment\\createroleassignmentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\roleassignment\\createroleassignmentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\roleassignment\\getroleassignmentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\roleassignment\\getroleassignmentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\roleassignment\\postroleassignmentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\roleassignment\\postroleassignmentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\roleassignment\\updateroleassignmentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\roleassignment\\updateroleassignmentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\notification\\postnotificationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\notification\\postnotificationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\notification\\getnotificationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\notification\\getnotificationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\notification\\createnotificationtrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\notification\\createnotificationtrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\replacementrequest\\updatereplacementrequestrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\replacementrequest\\updatereplacementrequestrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\replacementrequest\\postreplacementrequestresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\replacementrequest\\postreplacementrequestresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\replacementrequest\\getreplacementrequestresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\replacementrequest\\getreplacementrequestresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\role\\createrolerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\role\\createrolerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\role\\postroleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\role\\postroleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\role\\updaterolerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\role\\updaterolerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\role\\getroleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\role\\getroleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\replacementrequest\\createreplacementrequestrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\replacementrequest\\createreplacementrequestrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\user\\postuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\user\\postuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\user\\updateuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\user\\updateuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\studygroup\\createstudygrouprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\studygroup\\createstudygrouprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\studygroup\\getstudygroupresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\studygroup\\getstudygroupresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\user\\getuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\user\\getuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\studygroup\\poststudygroupresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\studygroup\\poststudygroupresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|c:\\users\\student\\desktop\\project1\\webapplication1\\contracts\\studygroup\\updatestudygrouprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{028FE034-9459-45CE-9C0D-9C4DC6F94238}|WebApplication1.csproj|solutionrelative:contracts\\studygroup\\updatestudygrouprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Student\\Desktop\\project 1\\DataAccess\\Models\\Proect1Context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\project1\\Domain\\Models\\\u041F\u0440\u043E\u043F\u0443\u0441\u043A\u0438.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\project1\\Domain\\Models\\\u0414\u043E\u043B\u0433\u0438\u041F\u043E\u0414\u0435\u0436\u0443\u0440\u0441\u0442\u0432\u0430\u043C.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\project1\\Domain\\Models\\\u0420\u0430\u0441\u043F\u0438\u0441\u0430\u043D\u0438\u0435\u0414\u0435\u0436\u0443\u0440\u0441\u0442\u0432.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\project1\\Domain\\Models\\\u0427\u043B\u0435\u043D\u0441\u0442\u0432\u043E\u0412\u0433\u0440\u0443\u043F\u043F\u0430\u0445.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\project1\\Domain\\Models\\\u0423\u0432\u0435\u0434\u043E\u043C\u043B\u0435\u043D\u0438\u044F.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\project1\\Domain\\Models\\\u0417\u0430\u043F\u0440\u043E\u0441\u044B\u041D\u0430\u0417\u0430\u043C\u0435\u043D\u0443.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\project1\\Domain\\Models\\\u0420\u043E\u043B\u0438.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\project1\\Domain\\Models\\\u041D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F\u0420\u043E\u043B\u0435\u0439.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\project1\\Domain\\Models\\\u0423\u0447\u0435\u0431\u043D\u044B\u0435\u0413\u0440\u0443\u043F\u043F\u044B.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\project1\\Domain\\Models\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\project1\\Domain\\Interfaces\\IStudyGroupService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\project1\\BusinessLogic\\Services\\StudyGroupService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7FB958-DCF0-4CFB-AF9D-029642B7BD28}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project1\\domain\\models\\\u043D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F\u0440\u043E\u043B\u0435\u0439.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7FB958-DCF0-4CFB-AF9D-029642B7BD28}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project1\\domain\\models\\\u0434\u043E\u043B\u0433\u0438\u043F\u043E\u0434\u0435\u0436\u0443\u0440\u0441\u0442\u0432\u0430\u043C.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B071207-1A83-424F-8D2F-DDEAC83278E7}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project1\\dataaccess\\repositories\\userrepositorycs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7FB958-DCF0-4CFB-AF9D-029642B7BD28}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project1\\domain\\models\\\u0437\u0430\u043F\u0440\u043E\u0441\u044B\u043D\u0430\u0437\u0430\u043C\u0435\u043D\u0443.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B071207-1A83-424F-8D2F-DDEAC83278E7}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project1\\dataaccess\\models\\proect1context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7FB958-DCF0-4CFB-AF9D-029642B7BD28}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project1\\domain\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7FB958-DCF0-4CFB-AF9D-029642B7BD28}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project1\\domain\\models\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B071207-1A83-424F-8D2F-DDEAC83278E7}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project1\\dataaccess\\repositories\\dutydebtrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7FB958-DCF0-4CFB-AF9D-029642B7BD28}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project1\\domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C765D891-D19C-4B69-8A01-45A3EA267EFF}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\student\\desktop\\project1\\businesslogic\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B071207-1A83-424F-8D2F-DDEAC83278E7}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project1\\dataaccess\\repositories\\absencerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B071207-1A83-424F-8D2F-DDEAC83278E7}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project1\\dataaccess\\repositories\\groupmembershiprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B071207-1A83-424F-8D2F-DDEAC83278E7}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project1\\dataaccess\\repositories\\dutyschedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C765D891-D19C-4B69-8A01-45A3EA267EFF}|..\\BusinessLogic\\BusinessLogic.csproj|c:\\users\\student\\desktop\\project1\\businesslogic\\services\\studygroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B071207-1A83-424F-8D2F-DDEAC83278E7}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project1\\dataaccess\\repositories\\notificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B071207-1A83-424F-8D2F-DDEAC83278E7}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project1\\dataaccess\\repositories\\roleassignmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B071207-1A83-424F-8D2F-DDEAC83278E7}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project1\\dataaccess\\repositories\\replacementrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B071207-1A83-424F-8D2F-DDEAC83278E7}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project1\\dataaccess\\repositories\\studygrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B071207-1A83-424F-8D2F-DDEAC83278E7}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project1\\dataaccess\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B071207-1A83-424F-8D2F-DDEAC83278E7}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project1\\dataaccess\\migrations\\20251106091239_migratonname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B071207-1A83-424F-8D2F-DDEAC83278E7}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project1\\dataaccess\\wrapper\\repositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7FB958-DCF0-4CFB-AF9D-029642B7BD28}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project1\\domain\\interfaces\\irepositorywrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E7FB958-DCF0-4CFB-AF9D-029642B7BD28}|..\\Domain\\Domain.csproj|c:\\users\\student\\desktop\\project1\\domain\\interfaces\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B071207-1A83-424F-8D2F-DDEAC83278E7}|..\\DataAccess\\DataAccess.csproj|c:\\users\\student\\desktop\\project1\\dataaccess\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": ".editorconfig",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\.editorconfig",
+              "RelativeDocumentMoniker": "..\\.editorconfig",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\.editorconfig",
+              "RelativeToolTip": "..\\.editorconfig",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-13T11:10:25.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AbsenceController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Controllers\\AbsenceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AbsenceController.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Controllers\\AbsenceController.cs",
+              "RelativeToolTip": "Controllers\\AbsenceController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAgwH0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T14:21:26.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReplacementRequestController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Controllers\\ReplacementRequestController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReplacementRequestController.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Controllers\\ReplacementRequestController.cs",
+              "RelativeToolTip": "Controllers\\ReplacementRequestController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAUwH4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T14:23:41.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NotificationController.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "Controllers\\NotificationController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAUwGgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T14:23:13.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UpdateNotificationtRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\Notification\\UpdateNotificationtRequest.cs",
+              "RelativeDocumentMoniker": "Contracts\\Notification\\UpdateNotificationtRequest.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\Notification\\UpdateNotificationtRequest.cs",
+              "RelativeToolTip": "Contracts\\Notification\\UpdateNotificationtRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:26:09.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T14:25:07.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WebApplication1.csproj",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\WebApplication1.csproj",
+              "RelativeDocumentMoniker": "WebApplication1.csproj",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\WebApplication1.csproj",
+              "RelativeToolTip": "WebApplication1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-06T09:10:27.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\User\\CreateUserRequest.cs",
+              "RelativeDocumentMoniker": "Contracts\\User\\CreateUserRequest.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\User\\CreateUserRequest.cs",
+              "RelativeToolTip": "Contracts\\User\\CreateUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T10:18:23.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RoleAssignmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Controllers\\RoleAssignmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RoleAssignmentController.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Controllers\\RoleAssignmentController.cs",
+              "RelativeToolTip": "Controllers\\RoleAssignmentController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAHEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T14:24:01.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RoleController.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "Controllers\\RoleController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAUwG4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T14:24:17.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GroupMembershipController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Controllers\\GroupMembershipController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GroupMembershipController.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Controllers\\GroupMembershipController.cs",
+              "RelativeToolTip": "Controllers\\GroupMembershipController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAUwHEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T14:22:54.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DutyScheduleController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Controllers\\DutyScheduleController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DutyScheduleController.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Controllers\\DutyScheduleController.cs",
+              "RelativeToolTip": "Controllers\\DutyScheduleController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAUwHcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T14:22:05.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DutyDebtController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Controllers\\DutyDebtController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DutyDebtController.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Controllers\\DutyDebtController.cs",
+              "RelativeToolTip": "Controllers\\DutyDebtController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAUwGYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T14:21:49.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateAbsenceRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\Absence\\CreateAbsenceRequest.cs",
+              "RelativeDocumentMoniker": "Contracts\\Absence\\CreateAbsenceRequest.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\Absence\\CreateAbsenceRequest.cs",
+              "RelativeToolTip": "Contracts\\Absence\\CreateAbsenceRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:33:53.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GetAbsenceResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\Absence\\GetAbsenceResponse.cs",
+              "RelativeDocumentMoniker": "Contracts\\Absence\\GetAbsenceResponse.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\Absence\\GetAbsenceResponse.cs",
+              "RelativeToolTip": "Contracts\\Absence\\GetAbsenceResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:33:35.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PostAbsenceResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\Absence\\PostAbsenceResponse.cs",
+              "RelativeDocumentMoniker": "Contracts\\Absence\\PostAbsenceResponse.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\Absence\\PostAbsenceResponse.cs",
+              "RelativeToolTip": "Contracts\\Absence\\PostAbsenceResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:34:04.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UpdateAbsenceRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\Absence\\UpdateAbsenceRequest.cs",
+              "RelativeDocumentMoniker": "Contracts\\Absence\\UpdateAbsenceRequest.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\Absence\\UpdateAbsenceRequest.cs",
+              "RelativeToolTip": "Contracts\\Absence\\UpdateAbsenceRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:34:06.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "\u041F\u0440\u043E\u043F\u0443\u0441\u043A\u0438.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\project1\\Domain\\Models\\\u041F\u0440\u043E\u043F\u0443\u0441\u043A\u0438.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\User\\Desktop\\project1\\Domain\\Models\\\u041F\u0440\u043E\u043F\u0443\u0441\u043A\u0438.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\project1\\Domain\\Models\\\u041F\u0440\u043E\u043F\u0443\u0441\u043A\u0438.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\User\\Desktop\\project1\\Domain\\Models\\\u041F\u0440\u043E\u043F\u0443\u0441\u043A\u0438.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T16:30:38.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PostDutyDebtResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\DutyDebt\\PostDutyDebtResponse.cs",
+              "RelativeDocumentMoniker": "Contracts\\DutyDebt\\PostDutyDebtResponse.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\DutyDebt\\PostDutyDebtResponse.cs",
+              "RelativeToolTip": "Contracts\\DutyDebt\\PostDutyDebtResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:31:47.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StudyGroupController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Controllers\\StudyGroupController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudyGroupController.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Controllers\\StudyGroupController.cs",
+              "RelativeToolTip": "Controllers\\StudyGroupController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAUwGIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T14:24:33.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T14:24:50.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UpdateDutyDebtRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\DutyDebt\\UpdateDutyDebtRequest.cs",
+              "RelativeDocumentMoniker": "Contracts\\DutyDebt\\UpdateDutyDebtRequest.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\DutyDebt\\UpdateDutyDebtRequest.cs",
+              "RelativeToolTip": "Contracts\\DutyDebt\\UpdateDutyDebtRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:32:27.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GetDutyDebtResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\DutyDebt\\GetDutyDebtResponse.cs",
+              "RelativeDocumentMoniker": "Contracts\\DutyDebt\\GetDutyDebtResponse.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\DutyDebt\\GetDutyDebtResponse.cs",
+              "RelativeToolTip": "Contracts\\DutyDebt\\GetDutyDebtResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:31:49.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreateDutyDebtRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\DutyDebt\\CreateDutyDebtRequest.cs",
+              "RelativeDocumentMoniker": "Contracts\\DutyDebt\\CreateDutyDebtRequest.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\DutyDebt\\CreateDutyDebtRequest.cs",
+              "RelativeToolTip": "Contracts\\DutyDebt\\CreateDutyDebtRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:31:51.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "\u0414\u043E\u043B\u0433\u0438\u041F\u043E\u0414\u0435\u0436\u0443\u0440\u0441\u0442\u0432\u0430\u043C.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\project1\\Domain\\Models\\\u0414\u043E\u043B\u0433\u0438\u041F\u043E\u0414\u0435\u0436\u0443\u0440\u0441\u0442\u0432\u0430\u043C.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\User\\Desktop\\project1\\Domain\\Models\\\u0414\u043E\u043B\u0433\u0438\u041F\u043E\u0414\u0435\u0436\u0443\u0440\u0441\u0442\u0432\u0430\u043C.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\project1\\Domain\\Models\\\u0414\u043E\u043B\u0433\u0438\u041F\u043E\u0414\u0435\u0436\u0443\u0440\u0441\u0442\u0432\u0430\u043C.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\User\\Desktop\\project1\\Domain\\Models\\\u0414\u043E\u043B\u0433\u0438\u041F\u043E\u0414\u0435\u0436\u0443\u0440\u0441\u0442\u0432\u0430\u043C.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T16:29:46.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PostDutyScheduleResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\DutySchedule\\PostDutyScheduleResponse.cs",
+              "RelativeDocumentMoniker": "Contracts\\DutySchedule\\PostDutyScheduleResponse.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\DutySchedule\\PostDutyScheduleResponse.cs",
+              "RelativeToolTip": "Contracts\\DutySchedule\\PostDutyScheduleResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:30:07.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UpdateDutyScheduleRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\DutySchedule\\UpdateDutyScheduleRequest.cs",
+              "RelativeDocumentMoniker": "Contracts\\DutySchedule\\UpdateDutyScheduleRequest.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\DutySchedule\\UpdateDutyScheduleRequest.cs",
+              "RelativeToolTip": "Contracts\\DutySchedule\\UpdateDutyScheduleRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:30:22.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GetDutyScheduleResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\DutySchedule\\GetDutyScheduleResponse.cs",
+              "RelativeDocumentMoniker": "Contracts\\DutySchedule\\GetDutyScheduleResponse.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\DutySchedule\\GetDutyScheduleResponse.cs",
+              "RelativeToolTip": "Contracts\\DutySchedule\\GetDutyScheduleResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:30:15.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CreateDutyScheduleRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\DutySchedule\\CreateDutyScheduleRequest.cs",
+              "RelativeDocumentMoniker": "Contracts\\DutySchedule\\CreateDutyScheduleRequest.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\DutySchedule\\CreateDutyScheduleRequest.cs",
+              "RelativeToolTip": "Contracts\\DutySchedule\\CreateDutyScheduleRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:29:22.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "\u0420\u0430\u0441\u043F\u0438\u0441\u0430\u043D\u0438\u0435\u0414\u0435\u0436\u0443\u0440\u0441\u0442\u0432.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\project1\\Domain\\Models\\\u0420\u0430\u0441\u043F\u0438\u0441\u0430\u043D\u0438\u0435\u0414\u0435\u0436\u0443\u0440\u0441\u0442\u0432.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\User\\Desktop\\project1\\Domain\\Models\\\u0420\u0430\u0441\u043F\u0438\u0441\u0430\u043D\u0438\u0435\u0414\u0435\u0436\u0443\u0440\u0441\u0442\u0432.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\project1\\Domain\\Models\\\u0420\u0430\u0441\u043F\u0438\u0441\u0430\u043D\u0438\u0435\u0414\u0435\u0436\u0443\u0440\u0441\u0442\u0432.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\User\\Desktop\\project1\\Domain\\Models\\\u0420\u0430\u0441\u043F\u0438\u0441\u0430\u043D\u0438\u0435\u0414\u0435\u0436\u0443\u0440\u0441\u0442\u0432.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T16:28:13.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UpdateGroupMembershipRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\GroupMembership\\UpdateGroupMembershipRequest.cs",
+              "RelativeDocumentMoniker": "Contracts\\GroupMembership\\UpdateGroupMembershipRequest.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\GroupMembership\\UpdateGroupMembershipRequest.cs",
+              "RelativeToolTip": "Contracts\\GroupMembership\\UpdateGroupMembershipRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:28:25.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PostGroupMembershipResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\GroupMembership\\PostGroupMembershipResponse.cs",
+              "RelativeDocumentMoniker": "Contracts\\GroupMembership\\PostGroupMembershipResponse.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\GroupMembership\\PostGroupMembershipResponse.cs",
+              "RelativeToolTip": "Contracts\\GroupMembership\\PostGroupMembershipResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:28:32.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "GetGroupMembershipResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\GroupMembership\\GetGroupMembershipResponse.cs",
+              "RelativeDocumentMoniker": "Contracts\\GroupMembership\\GetGroupMembershipResponse.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\GroupMembership\\GetGroupMembershipResponse.cs",
+              "RelativeToolTip": "Contracts\\GroupMembership\\GetGroupMembershipResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:28:34.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CreateGroupMembershipRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\GroupMembership\\CreateGroupMembershipRequest.cs",
+              "RelativeDocumentMoniker": "Contracts\\GroupMembership\\CreateGroupMembershipRequest.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\GroupMembership\\CreateGroupMembershipRequest.cs",
+              "RelativeToolTip": "Contracts\\GroupMembership\\CreateGroupMembershipRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:27:47.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CreateRoleAssignmentRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\RoleAssignment\\CreateRoleAssignmentRequest.cs",
+              "RelativeDocumentMoniker": "Contracts\\RoleAssignment\\CreateRoleAssignmentRequest.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\RoleAssignment\\CreateRoleAssignmentRequest.cs",
+              "RelativeToolTip": "Contracts\\RoleAssignment\\CreateRoleAssignmentRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:21:44.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "GetRoleAssignmentResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\RoleAssignment\\GetRoleAssignmentResponse.cs",
+              "RelativeDocumentMoniker": "Contracts\\RoleAssignment\\GetRoleAssignmentResponse.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\RoleAssignment\\GetRoleAssignmentResponse.cs",
+              "RelativeToolTip": "Contracts\\RoleAssignment\\GetRoleAssignmentResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:22:25.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PostRoleAssignmentResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\RoleAssignment\\PostRoleAssignmentResponse.cs",
+              "RelativeDocumentMoniker": "Contracts\\RoleAssignment\\PostRoleAssignmentResponse.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\RoleAssignment\\PostRoleAssignmentResponse.cs",
+              "RelativeToolTip": "Contracts\\RoleAssignment\\PostRoleAssignmentResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:22:28.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UpdateRoleAssignmentRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\RoleAssignment\\UpdateRoleAssignmentRequest.cs",
+              "RelativeDocumentMoniker": "Contracts\\RoleAssignment\\UpdateRoleAssignmentRequest.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\RoleAssignment\\UpdateRoleAssignmentRequest.cs",
+              "RelativeToolTip": "Contracts\\RoleAssignment\\UpdateRoleAssignmentRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:22:04.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "\u0427\u043B\u0435\u043D\u0441\u0442\u0432\u043E\u0412\u0433\u0440\u0443\u043F\u043F\u0430\u0445.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\project1\\Domain\\Models\\\u0427\u043B\u0435\u043D\u0441\u0442\u0432\u043E\u0412\u0433\u0440\u0443\u043F\u043F\u0430\u0445.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\User\\Desktop\\project1\\Domain\\Models\\\u0427\u043B\u0435\u043D\u0441\u0442\u0432\u043E\u0412\u0433\u0440\u0443\u043F\u043F\u0430\u0445.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\project1\\Domain\\Models\\\u0427\u043B\u0435\u043D\u0441\u0442\u0432\u043E\u0412\u0433\u0440\u0443\u043F\u043F\u0430\u0445.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\User\\Desktop\\project1\\Domain\\Models\\\u0427\u043B\u0435\u043D\u0441\u0442\u0432\u043E\u0412\u0433\u0440\u0443\u043F\u043F\u0430\u0445.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T14:59:48.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PostNotificationResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\Notification\\PostNotificationResponse.cs",
+              "RelativeDocumentMoniker": "Contracts\\Notification\\PostNotificationResponse.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\Notification\\PostNotificationResponse.cs",
+              "RelativeToolTip": "Contracts\\Notification\\PostNotificationResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:25:44.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "GetNotificationResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\Notification\\GetNotificationResponse.cs",
+              "RelativeDocumentMoniker": "Contracts\\Notification\\GetNotificationResponse.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\Notification\\GetNotificationResponse.cs",
+              "RelativeToolTip": "Contracts\\Notification\\GetNotificationResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:26:01.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CreateNotificationtRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\Notification\\CreateNotificationtRequest.cs",
+              "RelativeDocumentMoniker": "Contracts\\Notification\\CreateNotificationtRequest.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\Notification\\CreateNotificationtRequest.cs",
+              "RelativeToolTip": "Contracts\\Notification\\CreateNotificationtRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:26:04.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "\u0423\u0432\u0435\u0434\u043E\u043C\u043B\u0435\u043D\u0438\u044F.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\project1\\Domain\\Models\\\u0423\u0432\u0435\u0434\u043E\u043C\u043B\u0435\u043D\u0438\u044F.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\User\\Desktop\\project1\\Domain\\Models\\\u0423\u0432\u0435\u0434\u043E\u043C\u043B\u0435\u043D\u0438\u044F.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\project1\\Domain\\Models\\\u0423\u0432\u0435\u0434\u043E\u043C\u043B\u0435\u043D\u0438\u044F.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\User\\Desktop\\project1\\Domain\\Models\\\u0423\u0432\u0435\u0434\u043E\u043C\u043B\u0435\u043D\u0438\u044F.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T15:24:08.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "UpdateReplacementRequestRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\ReplacementRequest\\UpdateReplacementRequestRequest.cs",
+              "RelativeDocumentMoniker": "Contracts\\ReplacementRequest\\UpdateReplacementRequestRequest.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\ReplacementRequest\\UpdateReplacementRequestRequest.cs",
+              "RelativeToolTip": "Contracts\\ReplacementRequest\\UpdateReplacementRequestRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:24:28.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "PostReplacementRequestResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\ReplacementRequest\\PostReplacementRequestResponse.cs",
+              "RelativeDocumentMoniker": "Contracts\\ReplacementRequest\\PostReplacementRequestResponse.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\ReplacementRequest\\PostReplacementRequestResponse.cs",
+              "RelativeToolTip": "Contracts\\ReplacementRequest\\PostReplacementRequestResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:24:36.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "GetReplacementRequestResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\ReplacementRequest\\GetReplacementRequestResponse.cs",
+              "RelativeDocumentMoniker": "Contracts\\ReplacementRequest\\GetReplacementRequestResponse.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\ReplacementRequest\\GetReplacementRequestResponse.cs",
+              "RelativeToolTip": "Contracts\\ReplacementRequest\\GetReplacementRequestResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:24:40.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CreateRoleRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\Role\\CreateRoleRequest.cs",
+              "RelativeDocumentMoniker": "Contracts\\Role\\CreateRoleRequest.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\Role\\CreateRoleRequest.cs",
+              "RelativeToolTip": "Contracts\\Role\\CreateRoleRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:19:00.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "PostRoleResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\Role\\PostRoleResponse.cs",
+              "RelativeDocumentMoniker": "Contracts\\Role\\PostRoleResponse.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\Role\\PostRoleResponse.cs",
+              "RelativeToolTip": "Contracts\\Role\\PostRoleResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:19:35.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UpdateRoleRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\Role\\UpdateRoleRequest.cs",
+              "RelativeDocumentMoniker": "Contracts\\Role\\UpdateRoleRequest.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\Role\\UpdateRoleRequest.cs",
+              "RelativeToolTip": "Contracts\\Role\\UpdateRoleRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:20:29.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "GetRoleResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\Role\\GetRoleResponse.cs",
+              "RelativeDocumentMoniker": "Contracts\\Role\\GetRoleResponse.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\Role\\GetRoleResponse.cs",
+              "RelativeToolTip": "Contracts\\Role\\GetRoleResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:20:21.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CreateReplacementRequestRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\ReplacementRequest\\CreateReplacementRequestRequest.cs",
+              "RelativeDocumentMoniker": "Contracts\\ReplacementRequest\\CreateReplacementRequestRequest.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\ReplacementRequest\\CreateReplacementRequestRequest.cs",
+              "RelativeToolTip": "Contracts\\ReplacementRequest\\CreateReplacementRequestRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:23:27.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "\u0417\u0430\u043F\u0440\u043E\u0441\u044B\u041D\u0430\u0417\u0430\u043C\u0435\u043D\u0443.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\project1\\Domain\\Models\\\u0417\u0430\u043F\u0440\u043E\u0441\u044B\u041D\u0430\u0417\u0430\u043C\u0435\u043D\u0443.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\User\\Desktop\\project1\\Domain\\Models\\\u0417\u0430\u043F\u0440\u043E\u0441\u044B\u041D\u0430\u0417\u0430\u043C\u0435\u043D\u0443.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\project1\\Domain\\Models\\\u0417\u0430\u043F\u0440\u043E\u0441\u044B\u041D\u0430\u0417\u0430\u043C\u0435\u043D\u0443.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\User\\Desktop\\project1\\Domain\\Models\\\u0417\u0430\u043F\u0440\u043E\u0441\u044B\u041D\u0430\u0417\u0430\u043C\u0435\u043D\u0443.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T16:22:41.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "PostUserResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\User\\PostUserResponse.cs",
+              "RelativeDocumentMoniker": "Contracts\\User\\PostUserResponse.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\User\\PostUserResponse.cs",
+              "RelativeToolTip": "Contracts\\User\\PostUserResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T08:54:27.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "UpdateUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\User\\UpdateUserRequest.cs",
+              "RelativeDocumentMoniker": "Contracts\\User\\UpdateUserRequest.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\User\\UpdateUserRequest.cs",
+              "RelativeToolTip": "Contracts\\User\\UpdateUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T08:54:51.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "CreateStudyGroupRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\StudyGroup\\CreateStudyGroupRequest.cs",
+              "RelativeDocumentMoniker": "Contracts\\StudyGroup\\CreateStudyGroupRequest.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\StudyGroup\\CreateStudyGroupRequest.cs",
+              "RelativeToolTip": "Contracts\\StudyGroup\\CreateStudyGroupRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:13:02.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "GetStudyGroupResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\StudyGroup\\GetStudyGroupResponse.cs",
+              "RelativeDocumentMoniker": "Contracts\\StudyGroup\\GetStudyGroupResponse.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\StudyGroup\\GetStudyGroupResponse.cs",
+              "RelativeToolTip": "Contracts\\StudyGroup\\GetStudyGroupResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:15:28.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "GetUserResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\User\\GetUserResponse.cs",
+              "RelativeDocumentMoniker": "Contracts\\User\\GetUserResponse.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\User\\GetUserResponse.cs",
+              "RelativeToolTip": "Contracts\\User\\GetUserResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T10:19:05.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "PostStudyGroupResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\StudyGroup\\PostStudyGroupResponse.cs",
+              "RelativeDocumentMoniker": "Contracts\\StudyGroup\\PostStudyGroupResponse.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\StudyGroup\\PostStudyGroupResponse.cs",
+              "RelativeToolTip": "Contracts\\StudyGroup\\PostStudyGroupResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:15:46.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "UpdateStudyGroupRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\StudyGroup\\UpdateStudyGroupRequest.cs",
+              "RelativeDocumentMoniker": "Contracts\\StudyGroup\\UpdateStudyGroupRequest.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\WebApplication1\\Contracts\\StudyGroup\\UpdateStudyGroupRequest.cs",
+              "RelativeToolTip": "Contracts\\StudyGroup\\UpdateStudyGroupRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:16:07.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "\u0420\u043E\u043B\u0438.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\project1\\Domain\\Models\\\u0420\u043E\u043B\u0438.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\User\\Desktop\\project1\\Domain\\Models\\\u0420\u043E\u043B\u0438.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\project1\\Domain\\Models\\\u0420\u043E\u043B\u0438.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\User\\Desktop\\project1\\Domain\\Models\\\u0420\u043E\u043B\u0438.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T16:17:18.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "\u041D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F\u0420\u043E\u043B\u0435\u0439.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\project1\\Domain\\Models\\\u041D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F\u0420\u043E\u043B\u0435\u0439.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\User\\Desktop\\project1\\Domain\\Models\\\u041D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F\u0420\u043E\u043B\u0435\u0439.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\project1\\Domain\\Models\\\u041D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F\u0420\u043E\u043B\u0435\u0439.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\User\\Desktop\\project1\\Domain\\Models\\\u041D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F\u0420\u043E\u043B\u0435\u0439.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T16:08:37.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "\u0423\u0447\u0435\u0431\u043D\u044B\u0435\u0413\u0440\u0443\u043F\u043F\u044B.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\project1\\Domain\\Models\\\u0423\u0447\u0435\u0431\u043D\u044B\u0435\u0413\u0440\u0443\u043F\u043F\u044B.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\User\\Desktop\\project1\\Domain\\Models\\\u0423\u0447\u0435\u0431\u043D\u044B\u0435\u0413\u0440\u0443\u043F\u043F\u044B.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\project1\\Domain\\Models\\\u0423\u0447\u0435\u0431\u043D\u044B\u0435\u0413\u0440\u0443\u043F\u043F\u044B.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\User\\Desktop\\project1\\Domain\\Models\\\u0423\u0447\u0435\u0431\u043D\u044B\u0435\u0413\u0440\u0443\u043F\u043F\u044B.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T15:00:44.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAOQUAAAAAAAAAAAAwBEVAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-11-07T15:46:24.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\project1\\Domain\\Models\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\User\\Desktop\\project1\\Domain\\Models\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\project1\\Domain\\Models\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\User\\Desktop\\project1\\Domain\\Models\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T14:59:51.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "IStudyGroupService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\project1\\Domain\\Interfaces\\IStudyGroupService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\User\\Desktop\\project1\\Domain\\Interfaces\\IStudyGroupService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\project1\\Domain\\Interfaces\\IStudyGroupService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\User\\Desktop\\project1\\Domain\\Interfaces\\IStudyGroupService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T15:00:37.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "StudyGroupService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\project1\\BusinessLogic\\Services\\StudyGroupService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\User\\Desktop\\project1\\BusinessLogic\\Services\\StudyGroupService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\project1\\BusinessLogic\\Services\\StudyGroupService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\User\\Desktop\\project1\\BusinessLogic\\Services\\StudyGroupService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T15:00:14.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "\u041D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F\u0420\u043E\u043B\u0435\u0439.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\Domain\\Models\\\u041D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F\u0420\u043E\u043B\u0435\u0439.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Models\\\u041D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F\u0420\u043E\u043B\u0435\u0439.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\Domain\\Models\\\u041D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F\u0420\u043E\u043B\u0435\u0439.cs",
+              "RelativeToolTip": "..\\Domain\\Models\\\u041D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F\u0420\u043E\u043B\u0435\u0439.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T08:42:04.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "\u0414\u043E\u043B\u0433\u0438\u041F\u043E\u0414\u0435\u0436\u0443\u0440\u0441\u0442\u0432\u0430\u043C.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\Domain\\Models\\\u0414\u043E\u043B\u0433\u0438\u041F\u043E\u0414\u0435\u0436\u0443\u0440\u0441\u0442\u0432\u0430\u043C.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Models\\\u0414\u043E\u043B\u0433\u0438\u041F\u043E\u0414\u0435\u0436\u0443\u0440\u0441\u0442\u0432\u0430\u043C.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\Domain\\Models\\\u0414\u043E\u043B\u0433\u0438\u041F\u043E\u0414\u0435\u0436\u0443\u0440\u0441\u0442\u0432\u0430\u043C.cs",
+              "RelativeToolTip": "..\\Domain\\Models\\\u0414\u043E\u043B\u0433\u0438\u041F\u043E\u0414\u0435\u0436\u0443\u0440\u0441\u0442\u0432\u0430\u043C.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T10:29:04.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "UserRepositorycs.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\DataAccess\\Repositories\\UserRepositorycs.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\UserRepositorycs.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\DataAccess\\Repositories\\UserRepositorycs.cs",
+              "RelativeToolTip": "..\\DataAccess\\Repositories\\UserRepositorycs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T10:19:36.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "\u0417\u0430\u043F\u0440\u043E\u0441\u044B\u041D\u0430\u0417\u0430\u043C\u0435\u043D\u0443.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\Domain\\Models\\\u0417\u0430\u043F\u0440\u043E\u0441\u044B\u041D\u0430\u0417\u0430\u043C\u0435\u043D\u0443.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Models\\\u0417\u0430\u043F\u0440\u043E\u0441\u044B\u041D\u0430\u0417\u0430\u043C\u0435\u043D\u0443.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\Domain\\Models\\\u0417\u0430\u043F\u0440\u043E\u0441\u044B\u041D\u0430\u0417\u0430\u043C\u0435\u043D\u0443.cs",
+              "RelativeToolTip": "..\\Domain\\Models\\\u0417\u0430\u043F\u0440\u043E\u0441\u044B\u041D\u0430\u0417\u0430\u043C\u0435\u043D\u0443.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T10:29:05.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Proect1Context.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\DataAccess\\Models\\Proect1Context.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Models\\Proect1Context.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\DataAccess\\Models\\Proect1Context.cs",
+              "RelativeToolTip": "..\\DataAccess\\Models\\Proect1Context.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T10:19:46.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\Domain\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\Domain\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T10:20:02.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\Domain\\Models\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Models\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\Domain\\Models\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs",
+              "RelativeToolTip": "..\\Domain\\Models\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T10:20:20.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "DutyDebtRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\DataAccess\\Repositories\\DutyDebtRepository.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\DutyDebtRepository.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\DataAccess\\Repositories\\DutyDebtRepository.cs",
+              "RelativeToolTip": "..\\DataAccess\\Repositories\\DutyDebtRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T10:04:29.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T10:20:06.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\BusinessLogic\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\BusinessLogic\\Services\\UserService.cs",
+              "RelativeToolTip": "..\\BusinessLogic\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T14:30:31.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "AbsenceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\DataAccess\\Repositories\\AbsenceRepository.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\AbsenceRepository.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\DataAccess\\Repositories\\AbsenceRepository.cs",
+              "RelativeToolTip": "..\\DataAccess\\Repositories\\AbsenceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T10:05:31.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "GroupMembershipRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\DataAccess\\Repositories\\GroupMembershipRepository.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\GroupMembershipRepository.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\DataAccess\\Repositories\\GroupMembershipRepository.cs",
+              "RelativeToolTip": "..\\DataAccess\\Repositories\\GroupMembershipRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T10:01:57.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "DutyScheduleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\DataAccess\\Repositories\\DutyScheduleRepository.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\DutyScheduleRepository.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\DataAccess\\Repositories\\DutyScheduleRepository.cs",
+              "RelativeToolTip": "..\\DataAccess\\Repositories\\DutyScheduleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T10:03:06.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "StudyGroupService.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\BusinessLogic\\Services\\StudyGroupService.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLogic\\Services\\StudyGroupService.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\BusinessLogic\\Services\\StudyGroupService.cs",
+              "RelativeToolTip": "..\\BusinessLogic\\Services\\StudyGroupService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T09:47:57.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "NotificationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\DataAccess\\Repositories\\NotificationRepository.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\NotificationRepository.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\DataAccess\\Repositories\\NotificationRepository.cs",
+              "RelativeToolTip": "..\\DataAccess\\Repositories\\NotificationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T10:00:47.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "RoleAssignmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\DataAccess\\Repositories\\RoleAssignmentRepository.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\RoleAssignmentRepository.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\DataAccess\\Repositories\\RoleAssignmentRepository.cs",
+              "RelativeToolTip": "..\\DataAccess\\Repositories\\RoleAssignmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T09:57:08.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "ReplacementRequestRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\DataAccess\\Repositories\\ReplacementRequestRepository.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\ReplacementRequestRepository.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\DataAccess\\Repositories\\ReplacementRequestRepository.cs",
+              "RelativeToolTip": "..\\DataAccess\\Repositories\\ReplacementRequestRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T09:59:23.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "StudyGroupRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\DataAccess\\Repositories\\StudyGroupRepository.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\StudyGroupRepository.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\DataAccess\\Repositories\\StudyGroupRepository.cs",
+              "RelativeToolTip": "..\\DataAccess\\Repositories\\StudyGroupRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T09:48:07.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\DataAccess\\Repositories\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\RoleRepository.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\DataAccess\\Repositories\\RoleRepository.cs",
+              "RelativeToolTip": "..\\DataAccess\\Repositories\\RoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T09:52:25.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "20251106091239_MigratonName.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\DataAccess\\Migrations\\20251106091239_MigratonName.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Migrations\\20251106091239_MigratonName.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\DataAccess\\Migrations\\20251106091239_MigratonName.cs",
+              "RelativeToolTip": "..\\DataAccess\\Migrations\\20251106091239_MigratonName.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T09:12:39.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "RepositoryWrapper.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\DataAccess\\Wrapper\\RepositoryWrapper.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Wrapper\\RepositoryWrapper.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\DataAccess\\Wrapper\\RepositoryWrapper.cs",
+              "RelativeToolTip": "..\\DataAccess\\Wrapper\\RepositoryWrapper.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAuwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T09:28:34.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "IRepositoryWrapper.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\Domain\\Interfaces\\IRepositoryWrapper.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IRepositoryWrapper.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\Domain\\Interfaces\\IRepositoryWrapper.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IRepositoryWrapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T14:21:05.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "IRepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\Domain\\Interfaces\\IRepositoryBase.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IRepositoryBase.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\Domain\\Interfaces\\IRepositoryBase.cs",
+              "RelativeToolTip": "..\\Domain\\Interfaces\\IRepositoryBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T14:21:01.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project1\\DataAccess\\Repositories\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "..\\DataAccess\\Repositories\\RepositoryBase.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project1\\DataAccess\\Repositories\\RepositoryBase.cs",
+              "RelativeToolTip": "..\\DataAccess\\Repositories\\RepositoryBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T14:14:38.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Proect1Context.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\project 1\\DataAccess\\Models\\Proect1Context.cs",
+              "RelativeDocumentMoniker": "..\\..\\project 1\\DataAccess\\Models\\Proect1Context.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\project 1\\DataAccess\\Models\\Proect1Context.cs",
+              "RelativeToolTip": "..\\..\\project 1\\DataAccess\\Models\\Proect1Context.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T15:50:39.302Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

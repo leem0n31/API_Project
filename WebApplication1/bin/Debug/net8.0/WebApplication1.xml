@@ -1,0 +1,613 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApplication1</name>
+    </assembly>
+    <members>
+        <member name="M:BackendApi.Controllers.AbsenceController.GetAll">
+            <summary>
+            Получение списка всех пропусков
+            </summary>
+            <returns>Список пропусков</returns>
+        </member>
+        <member name="M:BackendApi.Controllers.AbsenceController.GetById(System.Int32)">
+            <summary>
+            Получение пропуска по идентификатору
+            </summary>
+            <param name="id">Идентификатор пропуска</param>
+            <returns>Данные пропуска</returns>
+        </member>
+        <member name="M:BackendApi.Controllers.AbsenceController.Add(Domain.Models.Пропуски)">
+             <summary>
+             Создание нового пропуска
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 POST /Absence
+                 {
+                    "id_пользователя" : 1,
+                    "id_группы" : 2,
+                    "дата_пропуска" : "2024-01-15",
+                    "причина" : "Болезнь",
+                    "описание" : "Температура 38.5",
+                    "уважительная" : true,
+                    "отметил" : 3
+                 }
+            
+             </remarks>
+             <param name="absence">Пропуск</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.AbsenceController.Update(Domain.Models.Пропуски)">
+             <summary>
+             Обновление данных пропуска
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 PUT /Absence
+                 {
+                    "id_пропуска" : 1,
+                    "id_пользователя" : 1,
+                    "id_группы" : 2,
+                    "дата_пропуска" : "2024-01-15",
+                    "причина" : "Болезнь",
+                    "описание" : "Температура 38.5, справка от врача",
+                    "уважительная" : true,
+                    "отметил" : 3
+                 }
+            
+             </remarks>
+             <param name="absence">Пропуск</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.AbsenceController.Delete(System.Int32)">
+            <summary>
+            Удаление пропуска
+            </summary>
+            <param name="id">Идентификатор пропуска</param>
+            <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.DutyDebtController.GetAll">
+            <summary>
+            Получение списка всех долгов по дежурствам
+            </summary>
+            <returns>Список долгов по дежурствам</returns>
+        </member>
+        <member name="M:BackendApi.Controllers.DutyDebtController.GetById(System.Int32)">
+            <summary>
+            Получение долга по дежурству по идентификатору
+            </summary>
+            <param name="id">Идентификатор долга по дежурству</param>
+            <returns>Данные долга по дежурству</returns>
+        </member>
+        <member name="M:BackendApi.Controllers.DutyDebtController.Add(Domain.Models.ДолгиПоДежурствам)">
+             <summary>
+             Создание нового долга по дежурству
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 POST /DutyDebt
+                 {
+                    "id_пользователя" : 1,
+                    "id_пропущенного_дежурства" : 5,
+                    "статус" : "ожидание",
+                    "новая_дата" : "2024-01-20"
+                 }
+            
+             </remarks>
+             <param name="dutyDebt">Долг по дежурству</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.DutyDebtController.Update(Domain.Models.ДолгиПоДежурствам)">
+             <summary>
+             Обновление данных долга по дежурству
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 PUT /DutyDebt
+                 {
+                    "id_долга" : 1,
+                    "id_пользователя" : 1,
+                    "id_пропущенного_дежурства" : 5,
+                    "статус" : "отработано",
+                    "новая_дата" : "2024-01-20",
+                    "id_отработочного_дежурства" : 8,
+                    "дата_закрытия" : "2024-01-20T18:00:00"
+                 }
+            
+             </remarks>
+             <param name="dutyDebt">Долг по дежурству</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.DutyDebtController.Delete(System.Int32)">
+            <summary>
+            Удаление долга по дежурству
+            </summary>
+            <param name="id">Идентификатор долга по дежурству</param>
+            <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.DutyScheduleController.GetAll">
+            <summary>
+            Получение списка всех расписаний дежурств
+            </summary>
+            <returns>Список расписаний дежурств</returns>
+        </member>
+        <member name="M:BackendApi.Controllers.DutyScheduleController.GetById(System.Int32)">
+            <summary>
+            Получение расписания дежурства по идентификатору
+            </summary>
+            <param name="id">Идентификатор расписания дежурства</param>
+            <returns>Данные расписания дежурства</returns>
+        </member>
+        <member name="M:BackendApi.Controllers.DutyScheduleController.Add(Domain.Models.РасписаниеДежурств)">
+             <summary>
+             Создание нового расписания дежурства
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 POST /DutySchedule
+                 {
+                    "id_группы" : 1,
+                    "дата_дежурства" : "2024-01-15",
+                    "id_дежурного" : 2,
+                    "статус" : "запланировано",
+                    "создал" : 3
+                 }
+            
+             </remarks>
+             <param name="dutySchedule">Расписание дежурства</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.DutyScheduleController.Update(Domain.Models.РасписаниеДежурств)">
+             <summary>
+             Обновление данных расписания дежурства
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 PUT /DutySchedule
+                 {
+                    "id_расписания" : 1,
+                    "id_группы" : 1,
+                    "дата_дежурства" : "2024-01-15",
+                    "id_дежурного" : 4,
+                    "статус" : "выполнено",
+                    "создал" : 3
+                 }
+            
+             </remarks>
+             <param name="dutySchedule">Расписание дежурства</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.DutyScheduleController.Delete(System.Int32)">
+            <summary>
+            Удаление расписания дежурства
+            </summary>
+            <param name="id">Идентификатор расписания дежурства</param>
+            <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.GroupMembershipController.GetAll">
+            <summary>
+            Получение списка всех членств в группах
+            </summary>
+            <returns>Список членств в группах</returns>
+        </member>
+        <member name="M:BackendApi.Controllers.GroupMembershipController.GetById(System.Int32)">
+            <summary>
+            Получение членства в группе по идентификатору
+            </summary>
+            <param name="id">Идентификатор членства в группе</param>
+            <returns>Данные членства в группе</returns>
+        </member>
+        <member name="M:BackendApi.Controllers.GroupMembershipController.Add(Domain.Models.ЧленствоВгруппах)">
+             <summary>
+             Создание нового членства в группе
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 POST /GroupMembership
+                 {
+                    "id_пользователя" : 1,
+                    "id_группы" : 2,
+                    "активен" : true
+                 }
+            
+             </remarks>
+             <param name="groupMembership">Членство в группе</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.GroupMembershipController.Update(Domain.Models.ЧленствоВгруппах)">
+             <summary>
+             Обновление данных членства в группе
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 PUT /GroupMembership
+                 {
+                    "id_членства" : 1,
+                    "id_пользователя" : 1,
+                    "id_группы" : 2,
+                    "активен" : false
+                 }
+            
+             </remarks>
+             <param name="groupMembership">Членство в группе</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.GroupMembershipController.Delete(System.Int32)">
+            <summary>
+            Удаление членства в группе
+            </summary>
+            <param name="id">Идентификатор членства в группе</param>
+            <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.NotificationController.GetAll">
+            <summary>
+            Получение списка всех уведомлений
+            </summary>
+            <returns>Список уведомлений</returns>
+        </member>
+        <member name="M:BackendApi.Controllers.NotificationController.GetById(System.Int32)">
+            <summary>
+            Получение уведомления по идентификатору
+            </summary>
+            <param name="id">Идентификатор уведомления</param>
+            <returns>Данные уведомления</returns>
+        </member>
+        <member name="M:BackendApi.Controllers.NotificationController.Add(Domain.Models.Уведомления)">
+             <summary>
+             Создание нового уведомления
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 POST /Notification
+                 {
+                    "id_пользователя" : 1,
+                    "тип_уведомления" : "Замена дежурства",
+                    "заголовок" : "Запрос на замену дежурства",
+                    "сообщение" : "Вам поступил запрос на замену дежурства от пользователя Иванов",
+                    "прочитано" : false,
+                    "дата_отправки" : "2024-01-15T10:00:00"
+                 }
+            
+             </remarks>
+             <param name="notification">Уведомление</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.NotificationController.Update(Domain.Models.Уведомления)">
+             <summary>
+             Обновление данных уведомления
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 PUT /Notification
+                 {
+                    "id_уведомления" : 1,
+                    "id_пользователя" : 1,
+                    "тип_уведомления" : "Замена дежурства",
+                    "заголовок" : "Запрос на замену дежурства",
+                    "сообщение" : "Вам поступил запрос на замену дежурства от пользователя Иванов",
+                    "прочитано" : true,
+                    "дата_отправки" : "2024-01-15T10:00:00"
+                 }
+            
+             </remarks>
+             <param name="notification">Уведомление</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.NotificationController.Delete(System.Int32)">
+            <summary>
+            Удаление уведомления
+            </summary>
+            <param name="id">Идентификатор уведомления</param>
+            <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.ReplacementRequestController.GetAll">
+            <summary>
+            Получение списка всех запросов на замену
+            </summary>
+            <returns>Список запросов на замену</returns>
+        </member>
+        <member name="M:BackendApi.Controllers.ReplacementRequestController.GetById(System.Int32)">
+            <summary>
+            Получение запроса на замену по идентификатору
+            </summary>
+            <param name="id">Идентификатор запроса на замену</param>
+            <returns>Данные запроса на замену</returns>
+        </member>
+        <member name="M:BackendApi.Controllers.ReplacementRequestController.Add(Domain.Models.ЗапросыНаЗамену)">
+             <summary>
+             Создание нового запроса на замену
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 POST /ReplacementRequest
+                 {
+                    "id_запрашивающего" : 1,
+                    "id_заменяющего" : 2,
+                    "id_дежурства" : 5,
+                    "новая_дата" : "2024-01-15",
+                    "статус" : "ожидание",
+                    "комментарий_запроса" : "Прошу замены по семейным обстоятельствам"
+                 }
+            
+             </remarks>
+             <param name="replacementRequest">Запрос на замену</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.ReplacementRequestController.Update(Domain.Models.ЗапросыНаЗамену)">
+             <summary>
+             Обновление данных запроса на замену
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 PUT /ReplacementRequest
+                 {
+                    "id_запроса" : 1,
+                    "id_запрашивающего" : 1,
+                    "id_заменяющего" : 2,
+                    "id_дежурства" : 5,
+                    "новая_дата" : "2024-01-15",
+                    "статус" : "одобрено",
+                    "комментарий_запроса" : "Прошу замены по семейным обстоятельствам",
+                    "комментарий_ответа" : "Замена согласована",
+                    "одобрил" : 3
+                 }
+            
+             </remarks>
+             <param name="replacementRequest">Запрос на замену</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.ReplacementRequestController.Delete(System.Int32)">
+            <summary>
+            Удаление запроса на замену
+            </summary>
+            <param name="id">Идентификатор запроса на замену</param>
+            <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.RoleAssignmentController.GetAll">
+            <summary>
+            Получение списка всех назначений ролей
+            </summary>
+            <returns>Список назначений ролей</returns>
+        </member>
+        <member name="M:BackendApi.Controllers.RoleAssignmentController.GetById(System.Int32)">
+            <summary>
+            Получение назначения роли по идентификатору
+            </summary>
+            <param name="id">Идентификатор назначения роли</param>
+            <returns>Данные назначения роли</returns>
+        </member>
+        <member name="M:BackendApi.Controllers.RoleAssignmentController.Add(Domain.Models.НазначенияРолей)">
+             <summary>
+             Создание нового назначения роли
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 POST /RoleAssignment
+                 {
+                    "id_пользователя" : 1,
+                    "id_роли" : 2,
+                    "назначил" : 3
+                 }
+            
+             </remarks>
+             <param name="roleAssignment">Назначение роли</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.RoleAssignmentController.Update(Domain.Models.НазначенияРолей)">
+             <summary>
+             Обновление данных назначения роли
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 PUT /RoleAssignment
+                 {
+                    "id_назначения" : 1,
+                    "id_пользователя" : 1,
+                    "id_роли" : 3,
+                    "назначил" : 4
+                 }
+            
+             </remarks>
+             <param name="roleAssignment">Назначение роли</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.RoleAssignmentController.Delete(System.Int32)">
+            <summary>
+            Удаление назначения роли
+            </summary>
+            <param name="id">Идентификатор назначения роли</param>
+            <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.RoleController.GetAll">
+            <summary>
+            Получение списка всех ролей
+            </summary>
+            <returns>Список ролей</returns>
+        </member>
+        <member name="M:BackendApi.Controllers.RoleController.GetById(System.Int32)">
+            <summary>
+            Получение роли по идентификатору
+            </summary>
+            <param name="id">Идентификатор роли</param>
+            <returns>Данные роли</returns>
+        </member>
+        <member name="M:BackendApi.Controllers.RoleController.Add(Domain.Models.Роли)">
+             <summary>
+             Создание новой роли
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 POST /Role
+                 {
+                    "название_роли" : "Администратор",
+                    "описание" : "Полный доступ ко всем функциям системы"
+                 }
+            
+             </remarks>
+             <param name="role">Роль</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.RoleController.Update(Domain.Models.Роли)">
+             <summary>
+             Обновление данных роли
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 PUT /Role
+                 {
+                    "id_роли" : 1,
+                    "название_роли" : "Администратор",
+                    "описание" : "Полный доступ ко всем функциям системы с ограничениями"
+                 }
+            
+             </remarks>
+             <param name="role">Роль</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.RoleController.Delete(System.Int32)">
+            <summary>
+            Удаление роли
+            </summary>
+            <param name="id">Идентификатор роли</param>
+            <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.StudyGroupController.GetAll">
+            <summary>
+            Получение списка всех учебных групп
+            </summary>
+            <returns>Список учебных групп</returns>
+        </member>
+        <member name="M:BackendApi.Controllers.StudyGroupController.GetById(System.Int32)">
+            <summary>
+            Получение учебной группы по идентификатору
+            </summary>
+            <param name="id">Идентификатор учебной группы</param>
+            <returns>Данные учебной группы</returns>
+        </member>
+        <member name="M:BackendApi.Controllers.StudyGroupController.Add(WebApplication1.Contracts.StudyGroup.CreateStudyGroupRequest)">
+             <summary>
+             Создание новой учебной группы
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 POST /StudyGroup
+                 {
+                    "название_группы" : "ИТ-21",
+                    "курс" : 2,
+                    "факультет" : "Информационные технологии"
+                 }
+            
+             </remarks>
+             <param name="studyGroup">Учебная группа</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.StudyGroupController.Update(Domain.Models.УчебныеГруппы)">
+             <summary>
+             Обновление данных учебной группы
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 PUT /StudyGroup
+                 {
+                    "id_группы" : 1,
+                    "название_группы" : "ИТ-21",
+                    "курс" : 3,
+                    "факультет" : "Информационные технологии и системы"
+                 }
+            
+             </remarks>
+             <param name="studyGroup">Учебная группа</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.StudyGroupController.Delete(System.Int32)">
+            <summary>
+            Удаление учебной группы
+            </summary>
+            <param name="id">Идентификатор учебной группы</param>
+            <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.UserController.GetAll">
+            <summary>
+            Получение списка всех пользователей
+            </summary>
+            <returns>Список пользователей</returns>
+        </member>
+        <member name="M:BackendApi.Controllers.UserController.GetById(System.Int32)">
+            <summary>
+            Получение пользователя по идентификатору
+            </summary>
+            <param name="id">Идентификатор пользователя</param>
+            <returns>Данные пользователя</returns>
+        </member>
+        <member name="M:BackendApi.Controllers.UserController.Add(WebApplication1.Contracts.User.CreateUserRequest)">
+             <summary>
+             Создание нового пользователя
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 POST /User
+                 {
+                    "логин" : "ivanov123",
+                    "пароль" : "!Pa$$word123@",
+                    "email" : "ivanov@example.com",
+                    "имя" : "Иван",
+                    "фамилия" : "Иванов",
+                    "телефон" : "+79991234567"
+                 }
+            
+             </remarks>
+             <param name="user">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.UserController.Update(WebApplication1.Contracts.User.UpdateUserRequest)">
+             <summary>
+             Обновление данных пользователя
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 PUT /User
+                 {
+                    "id_пользователя" : 1,
+                    "логин" : "ivanov123",
+                    "пароль" : "NewPa$$word123!",
+                    "email" : "ivanov_new@example.com",
+                    "имя" : "Иван",
+                    "фамилия" : "Иванов",
+                    "телефон" : "+79991234568",
+                    "активен" : true
+                 }
+            
+             </remarks>
+             <param name="user">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.UserController.Delete(System.Int32)">
+            <summary>
+            Удаление пользователя
+            </summary>
+            <param name="id">Идентификатор пользователя</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

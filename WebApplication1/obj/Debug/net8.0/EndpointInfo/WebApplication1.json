@@ -1,0 +1,1902 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Интернет-магазин API",
+    "description": "Краткое описание вашего API",
+    "contact": {
+      "name": "Пример контакта",
+      "url": "https://example.com/contact"
+    },
+    "license": {
+      "name": "Пример лицензии",
+      "url": "https://example.com/license"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Absence": {
+      "get": {
+        "tags": [
+          "Absence"
+        ],
+        "summary": "Получение списка всех пропусков",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Absence"
+        ],
+        "summary": "Создание нового пропуска",
+        "description": "Пример запроса:\r\n            \r\n    POST /Absence\r\n    {\r\n       \"id_пользователя\" : 1,\r\n       \"id_группы\" : 2,\r\n       \"дата_пропуска\" : \"2024-01-15\",\r\n       \"причина\" : \"Болезнь\",\r\n       \"описание\" : \"Температура 38.5\",\r\n       \"уважительная\" : true,\r\n       \"отметил\" : 3\r\n    }",
+        "requestBody": {
+          "description": "Пропуск",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Пропуски"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Пропуски"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Пропуски"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Absence"
+        ],
+        "summary": "Обновление данных пропуска",
+        "description": "Пример запроса:\r\n            \r\n    PUT /Absence\r\n    {\r\n       \"id_пропуска\" : 1,\r\n       \"id_пользователя\" : 1,\r\n       \"id_группы\" : 2,\r\n       \"дата_пропуска\" : \"2024-01-15\",\r\n       \"причина\" : \"Болезнь\",\r\n       \"описание\" : \"Температура 38.5, справка от врача\",\r\n       \"уважительная\" : true,\r\n       \"отметил\" : 3\r\n    }",
+        "requestBody": {
+          "description": "Пропуск",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Пропуски"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Пропуски"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Пропуски"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Absence"
+        ],
+        "summary": "Удаление пропуска",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "description": "Идентификатор пропуска",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Absence/{id}": {
+      "get": {
+        "tags": [
+          "Absence"
+        ],
+        "summary": "Получение пропуска по идентификатору",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Идентификатор пропуска",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DutyDebt": {
+      "get": {
+        "tags": [
+          "DutyDebt"
+        ],
+        "summary": "Получение списка всех долгов по дежурствам",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "DutyDebt"
+        ],
+        "summary": "Создание нового долга по дежурству",
+        "description": "Пример запроса:\r\n            \r\n    POST /DutyDebt\r\n    {\r\n       \"id_пользователя\" : 1,\r\n       \"id_пропущенного_дежурства\" : 5,\r\n       \"статус\" : \"ожидание\",\r\n       \"новая_дата\" : \"2024-01-20\"\r\n    }",
+        "requestBody": {
+          "description": "Долг по дежурству",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ДолгиПоДежурствам"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ДолгиПоДежурствам"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ДолгиПоДежурствам"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "DutyDebt"
+        ],
+        "summary": "Обновление данных долга по дежурству",
+        "description": "Пример запроса:\r\n            \r\n    PUT /DutyDebt\r\n    {\r\n       \"id_долга\" : 1,\r\n       \"id_пользователя\" : 1,\r\n       \"id_пропущенного_дежурства\" : 5,\r\n       \"статус\" : \"отработано\",\r\n       \"новая_дата\" : \"2024-01-20\",\r\n       \"id_отработочного_дежурства\" : 8,\r\n       \"дата_закрытия\" : \"2024-01-20T18:00:00\"\r\n    }",
+        "requestBody": {
+          "description": "Долг по дежурству",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ДолгиПоДежурствам"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ДолгиПоДежурствам"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ДолгиПоДежурствам"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "DutyDebt"
+        ],
+        "summary": "Удаление долга по дежурству",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "description": "Идентификатор долга по дежурству",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DutyDebt/{id}": {
+      "get": {
+        "tags": [
+          "DutyDebt"
+        ],
+        "summary": "Получение долга по дежурству по идентификатору",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Идентификатор долга по дежурству",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DutySchedule": {
+      "get": {
+        "tags": [
+          "DutySchedule"
+        ],
+        "summary": "Получение списка всех расписаний дежурств",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "DutySchedule"
+        ],
+        "summary": "Создание нового расписания дежурства",
+        "description": "Пример запроса:\r\n            \r\n    POST /DutySchedule\r\n    {\r\n       \"id_группы\" : 1,\r\n       \"дата_дежурства\" : \"2024-01-15\",\r\n       \"id_дежурного\" : 2,\r\n       \"статус\" : \"запланировано\",\r\n       \"создал\" : 3\r\n    }",
+        "requestBody": {
+          "description": "Расписание дежурства",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/РасписаниеДежурств"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/РасписаниеДежурств"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/РасписаниеДежурств"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "DutySchedule"
+        ],
+        "summary": "Обновление данных расписания дежурства",
+        "description": "Пример запроса:\r\n            \r\n    PUT /DutySchedule\r\n    {\r\n       \"id_расписания\" : 1,\r\n       \"id_группы\" : 1,\r\n       \"дата_дежурства\" : \"2024-01-15\",\r\n       \"id_дежурного\" : 4,\r\n       \"статус\" : \"выполнено\",\r\n       \"создал\" : 3\r\n    }",
+        "requestBody": {
+          "description": "Расписание дежурства",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/РасписаниеДежурств"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/РасписаниеДежурств"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/РасписаниеДежурств"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "DutySchedule"
+        ],
+        "summary": "Удаление расписания дежурства",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "description": "Идентификатор расписания дежурства",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DutySchedule/{id}": {
+      "get": {
+        "tags": [
+          "DutySchedule"
+        ],
+        "summary": "Получение расписания дежурства по идентификатору",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Идентификатор расписания дежурства",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/GroupMembership": {
+      "get": {
+        "tags": [
+          "GroupMembership"
+        ],
+        "summary": "Получение списка всех членств в группах",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "GroupMembership"
+        ],
+        "summary": "Создание нового членства в группе",
+        "description": "Пример запроса:\r\n            \r\n    POST /GroupMembership\r\n    {\r\n       \"id_пользователя\" : 1,\r\n       \"id_группы\" : 2,\r\n       \"активен\" : true\r\n    }",
+        "requestBody": {
+          "description": "Членство в группе",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ЧленствоВгруппах"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ЧленствоВгруппах"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ЧленствоВгруппах"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "GroupMembership"
+        ],
+        "summary": "Обновление данных членства в группе",
+        "description": "Пример запроса:\r\n            \r\n    PUT /GroupMembership\r\n    {\r\n       \"id_членства\" : 1,\r\n       \"id_пользователя\" : 1,\r\n       \"id_группы\" : 2,\r\n       \"активен\" : false\r\n    }",
+        "requestBody": {
+          "description": "Членство в группе",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ЧленствоВгруппах"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ЧленствоВгруппах"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ЧленствоВгруппах"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "GroupMembership"
+        ],
+        "summary": "Удаление членства в группе",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "description": "Идентификатор членства в группе",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/GroupMembership/{id}": {
+      "get": {
+        "tags": [
+          "GroupMembership"
+        ],
+        "summary": "Получение членства в группе по идентификатору",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Идентификатор членства в группе",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Notification": {
+      "get": {
+        "tags": [
+          "Notification"
+        ],
+        "summary": "Получение списка всех уведомлений",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Notification"
+        ],
+        "summary": "Создание нового уведомления",
+        "description": "Пример запроса:\r\n            \r\n    POST /Notification\r\n    {\r\n       \"id_пользователя\" : 1,\r\n       \"тип_уведомления\" : \"Замена дежурства\",\r\n       \"заголовок\" : \"Запрос на замену дежурства\",\r\n       \"сообщение\" : \"Вам поступил запрос на замену дежурства от пользователя Иванов\",\r\n       \"прочитано\" : false,\r\n       \"дата_отправки\" : \"2024-01-15T10:00:00\"\r\n    }",
+        "requestBody": {
+          "description": "Уведомление",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Уведомления"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Уведомления"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Уведомления"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Notification"
+        ],
+        "summary": "Обновление данных уведомления",
+        "description": "Пример запроса:\r\n            \r\n    PUT /Notification\r\n    {\r\n       \"id_уведомления\" : 1,\r\n       \"id_пользователя\" : 1,\r\n       \"тип_уведомления\" : \"Замена дежурства\",\r\n       \"заголовок\" : \"Запрос на замену дежурства\",\r\n       \"сообщение\" : \"Вам поступил запрос на замену дежурства от пользователя Иванов\",\r\n       \"прочитано\" : true,\r\n       \"дата_отправки\" : \"2024-01-15T10:00:00\"\r\n    }",
+        "requestBody": {
+          "description": "Уведомление",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Уведомления"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Уведомления"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Уведомления"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Notification"
+        ],
+        "summary": "Удаление уведомления",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "description": "Идентификатор уведомления",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Notification/{id}": {
+      "get": {
+        "tags": [
+          "Notification"
+        ],
+        "summary": "Получение уведомления по идентификатору",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Идентификатор уведомления",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ReplacementRequest": {
+      "get": {
+        "tags": [
+          "ReplacementRequest"
+        ],
+        "summary": "Получение списка всех запросов на замену",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "ReplacementRequest"
+        ],
+        "summary": "Создание нового запроса на замену",
+        "description": "Пример запроса:\r\n            \r\n    POST /ReplacementRequest\r\n    {\r\n       \"id_запрашивающего\" : 1,\r\n       \"id_заменяющего\" : 2,\r\n       \"id_дежурства\" : 5,\r\n       \"новая_дата\" : \"2024-01-15\",\r\n       \"статус\" : \"ожидание\",\r\n       \"комментарий_запроса\" : \"Прошу замены по семейным обстоятельствам\"\r\n    }",
+        "requestBody": {
+          "description": "Запрос на замену",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ЗапросыНаЗамену"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ЗапросыНаЗамену"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ЗапросыНаЗамену"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "ReplacementRequest"
+        ],
+        "summary": "Обновление данных запроса на замену",
+        "description": "Пример запроса:\r\n            \r\n    PUT /ReplacementRequest\r\n    {\r\n       \"id_запроса\" : 1,\r\n       \"id_запрашивающего\" : 1,\r\n       \"id_заменяющего\" : 2,\r\n       \"id_дежурства\" : 5,\r\n       \"новая_дата\" : \"2024-01-15\",\r\n       \"статус\" : \"одобрено\",\r\n       \"комментарий_запроса\" : \"Прошу замены по семейным обстоятельствам\",\r\n       \"комментарий_ответа\" : \"Замена согласована\",\r\n       \"одобрил\" : 3\r\n    }",
+        "requestBody": {
+          "description": "Запрос на замену",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ЗапросыНаЗамену"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ЗапросыНаЗамену"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ЗапросыНаЗамену"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "ReplacementRequest"
+        ],
+        "summary": "Удаление запроса на замену",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "description": "Идентификатор запроса на замену",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ReplacementRequest/{id}": {
+      "get": {
+        "tags": [
+          "ReplacementRequest"
+        ],
+        "summary": "Получение запроса на замену по идентификатору",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Идентификатор запроса на замену",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Role": {
+      "get": {
+        "tags": [
+          "Role"
+        ],
+        "summary": "Получение списка всех ролей",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Role"
+        ],
+        "summary": "Создание новой роли",
+        "description": "Пример запроса:\r\n            \r\n    POST /Role\r\n    {\r\n       \"название_роли\" : \"Администратор\",\r\n       \"описание\" : \"Полный доступ ко всем функциям системы\"\r\n    }",
+        "requestBody": {
+          "description": "Роль",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Роли"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Роли"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Роли"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Role"
+        ],
+        "summary": "Обновление данных роли",
+        "description": "Пример запроса:\r\n            \r\n    PUT /Role\r\n    {\r\n       \"id_роли\" : 1,\r\n       \"название_роли\" : \"Администратор\",\r\n       \"описание\" : \"Полный доступ ко всем функциям системы с ограничениями\"\r\n    }",
+        "requestBody": {
+          "description": "Роль",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Роли"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Роли"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Роли"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Role"
+        ],
+        "summary": "Удаление роли",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "description": "Идентификатор роли",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Role/{id}": {
+      "get": {
+        "tags": [
+          "Role"
+        ],
+        "summary": "Получение роли по идентификатору",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Идентификатор роли",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/RoleAssignment": {
+      "get": {
+        "tags": [
+          "RoleAssignment"
+        ],
+        "summary": "Получение списка всех назначений ролей",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "RoleAssignment"
+        ],
+        "summary": "Создание нового назначения роли",
+        "description": "Пример запроса:\r\n            \r\n    POST /RoleAssignment\r\n    {\r\n       \"id_пользователя\" : 1,\r\n       \"id_роли\" : 2,\r\n       \"назначил\" : 3\r\n    }",
+        "requestBody": {
+          "description": "Назначение роли",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/НазначенияРолей"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/НазначенияРолей"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/НазначенияРолей"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "RoleAssignment"
+        ],
+        "summary": "Обновление данных назначения роли",
+        "description": "Пример запроса:\r\n            \r\n    PUT /RoleAssignment\r\n    {\r\n       \"id_назначения\" : 1,\r\n       \"id_пользователя\" : 1,\r\n       \"id_роли\" : 3,\r\n       \"назначил\" : 4\r\n    }",
+        "requestBody": {
+          "description": "Назначение роли",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/НазначенияРолей"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/НазначенияРолей"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/НазначенияРолей"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "RoleAssignment"
+        ],
+        "summary": "Удаление назначения роли",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "description": "Идентификатор назначения роли",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/RoleAssignment/{id}": {
+      "get": {
+        "tags": [
+          "RoleAssignment"
+        ],
+        "summary": "Получение назначения роли по идентификатору",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Идентификатор назначения роли",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/StudyGroup": {
+      "get": {
+        "tags": [
+          "StudyGroup"
+        ],
+        "summary": "Получение списка всех учебных групп",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "StudyGroup"
+        ],
+        "summary": "Создание новой учебной группы",
+        "description": "Пример запроса:\r\n            \r\n    POST /StudyGroup\r\n    {\r\n       \"название_группы\" : \"ИТ-21\",\r\n       \"курс\" : 2,\r\n       \"факультет\" : \"Информационные технологии\"\r\n    }",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateStudyGroupRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateStudyGroupRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateStudyGroupRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "StudyGroup"
+        ],
+        "summary": "Обновление данных учебной группы",
+        "description": "Пример запроса:\r\n            \r\n    PUT /StudyGroup\r\n    {\r\n       \"id_группы\" : 1,\r\n       \"название_группы\" : \"ИТ-21\",\r\n       \"курс\" : 3,\r\n       \"факультет\" : \"Информационные технологии и системы\"\r\n    }",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/УчебныеГруппы"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/УчебныеГруппы"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/УчебныеГруппы"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "StudyGroup"
+        ],
+        "summary": "Удаление учебной группы",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "description": "Идентификатор учебной группы",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/StudyGroup/{id}": {
+      "get": {
+        "tags": [
+          "StudyGroup"
+        ],
+        "summary": "Получение учебной группы по идентификатору",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Идентификатор учебной группы",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Получение списка всех пользователей",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Создание нового пользователя",
+        "description": "Пример запроса:\r\n            \r\n    POST /User\r\n    {\r\n       \"логин\" : \"ivanov123\",\r\n       \"пароль\" : \"!Pa$$word123@\",\r\n       \"email\" : \"ivanov@example.com\",\r\n       \"имя\" : \"Иван\",\r\n       \"фамилия\" : \"Иванов\",\r\n       \"телефон\" : \"+79991234567\"\r\n    }",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateUserRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateUserRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateUserRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Обновление данных пользователя",
+        "description": "Пример запроса:\r\n            \r\n    PUT /User\r\n    {\r\n       \"id_пользователя\" : 1,\r\n       \"логин\" : \"ivanov123\",\r\n       \"пароль\" : \"NewPa$$word123!\",\r\n       \"email\" : \"ivanov_new@example.com\",\r\n       \"имя\" : \"Иван\",\r\n       \"фамилия\" : \"Иванов\",\r\n       \"телефон\" : \"+79991234568\",\r\n       \"активен\" : true\r\n    }",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateUserRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateUserRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateUserRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Удаление пользователя",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "description": "Идентификатор пользователя",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/{id}": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Получение пользователя по идентификатору",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Идентификатор пользователя",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CreateStudyGroupRequest": {
+        "type": "object",
+        "properties": {
+          "названиеГруппы": {
+            "type": "string",
+            "nullable": true
+          },
+          "курс": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "факультет": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateUserRequest": {
+        "type": "object",
+        "properties": {
+          "логин": {
+            "type": "string",
+            "nullable": true
+          },
+          "пароль": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "имя": {
+            "type": "string",
+            "nullable": true
+          },
+          "фамилия": {
+            "type": "string",
+            "nullable": true
+          },
+          "телефон": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateUserRequest": {
+        "type": "object",
+        "properties": {
+          "idПользователя": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "логин": {
+            "type": "string",
+            "nullable": true
+          },
+          "пароль": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "имя": {
+            "type": "string",
+            "nullable": true
+          },
+          "фамилия": {
+            "type": "string",
+            "nullable": true
+          },
+          "телефон": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ДолгиПоДежурствам": {
+        "type": "object",
+        "properties": {
+          "idДолга": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idПользователя": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idПропущенногоДежурства": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "статус": {
+            "type": "string",
+            "nullable": true
+          },
+          "новаяДата": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "idОтработочногоДежурства": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "датаСоздания": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "датаЗакрытия": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "idОтработочногоДежурстваNavigation": {
+            "$ref": "#/components/schemas/РасписаниеДежурств"
+          },
+          "idПользователяNavigation": {
+            "$ref": "#/components/schemas/Пользователи"
+          },
+          "idПропущенногоДежурстваNavigation": {
+            "$ref": "#/components/schemas/РасписаниеДежурств"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ЗапросыНаЗамену": {
+        "type": "object",
+        "properties": {
+          "idЗапроса": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idЗапрашивающего": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idЗаменяющего": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idДежурства": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "новаяДата": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "статус": {
+            "type": "string",
+            "nullable": true
+          },
+          "комментарийЗапроса": {
+            "type": "string",
+            "nullable": true
+          },
+          "комментарийОтвета": {
+            "type": "string",
+            "nullable": true
+          },
+          "одобрил": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "датаСоздания": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "датаОбновления": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "idДежурстваNavigation": {
+            "$ref": "#/components/schemas/РасписаниеДежурств"
+          },
+          "idЗаменяющегоNavigation": {
+            "$ref": "#/components/schemas/Пользователи"
+          },
+          "idЗапрашивающегоNavigation": {
+            "$ref": "#/components/schemas/Пользователи"
+          },
+          "одобрилNavigation": {
+            "$ref": "#/components/schemas/Пользователи"
+          }
+        },
+        "additionalProperties": false
+      },
+      "НазначенияРолей": {
+        "type": "object",
+        "properties": {
+          "idНазначения": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idПользователя": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idРоли": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "датаНазначения": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "назначил": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idПользователяNavigation": {
+            "$ref": "#/components/schemas/Пользователи"
+          },
+          "idРолиNavigation": {
+            "$ref": "#/components/schemas/Роли"
+          },
+          "назначилNavigation": {
+            "$ref": "#/components/schemas/Пользователи"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Пользователи": {
+        "type": "object",
+        "properties": {
+          "idПользователя": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "логин": {
+            "type": "string",
+            "nullable": true
+          },
+          "пароль": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "имя": {
+            "type": "string",
+            "nullable": true
+          },
+          "фамилия": {
+            "type": "string",
+            "nullable": true
+          },
+          "телефон": {
+            "type": "string",
+            "nullable": true
+          },
+          "активен": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "датаСоздания": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "датаОбновления": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "долгиПоДежурствамs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ДолгиПоДежурствам"
+            },
+            "nullable": true
+          },
+          "запросыНаЗаменуIdЗаменяющегоNavigations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ЗапросыНаЗамену"
+            },
+            "nullable": true
+          },
+          "запросыНаЗаменуIdЗапрашивающегоNavigations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ЗапросыНаЗамену"
+            },
+            "nullable": true
+          },
+          "запросыНаЗаменуОдобрилNavigations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ЗапросыНаЗамену"
+            },
+            "nullable": true
+          },
+          "назначенияРолейIdПользователяNavigations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/НазначенияРолей"
+            },
+            "nullable": true
+          },
+          "назначенияРолейНазначилNavigations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/НазначенияРолей"
+            },
+            "nullable": true
+          },
+          "пропускиIdПользователяNavigations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Пропуски"
+            },
+            "nullable": true
+          },
+          "пропускиОтметилNavigations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Пропуски"
+            },
+            "nullable": true
+          },
+          "расписаниеДежурствIdДежурногоNavigations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/РасписаниеДежурств"
+            },
+            "nullable": true
+          },
+          "расписаниеДежурствСоздалNavigations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/РасписаниеДежурств"
+            },
+            "nullable": true
+          },
+          "уведомленияs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Уведомления"
+            },
+            "nullable": true
+          },
+          "членствоВгруппахs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ЧленствоВгруппах"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Пропуски": {
+        "type": "object",
+        "properties": {
+          "idПропуска": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idПользователя": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idГруппы": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "датаПропуска": {
+            "type": "string",
+            "format": "date"
+          },
+          "причина": {
+            "type": "string",
+            "nullable": true
+          },
+          "описание": {
+            "type": "string",
+            "nullable": true
+          },
+          "уважительная": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "отметил": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "датаСоздания": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "idГруппыNavigation": {
+            "$ref": "#/components/schemas/УчебныеГруппы"
+          },
+          "idПользователяNavigation": {
+            "$ref": "#/components/schemas/Пользователи"
+          },
+          "отметилNavigation": {
+            "$ref": "#/components/schemas/Пользователи"
+          }
+        },
+        "additionalProperties": false
+      },
+      "РасписаниеДежурств": {
+        "type": "object",
+        "properties": {
+          "idРасписания": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idГруппы": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "датаДежурства": {
+            "type": "string",
+            "format": "date"
+          },
+          "idДежурного": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "статус": {
+            "type": "string",
+            "nullable": true
+          },
+          "создал": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "датаСоздания": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "датаОбновления": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "idГруппыNavigation": {
+            "$ref": "#/components/schemas/УчебныеГруппы"
+          },
+          "idДежурногоNavigation": {
+            "$ref": "#/components/schemas/Пользователи"
+          },
+          "долгиПоДежурствамIdОтработочногоДежурстваNavigations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ДолгиПоДежурствам"
+            },
+            "nullable": true
+          },
+          "долгиПоДежурствамIdПропущенногоДежурстваNavigations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ДолгиПоДежурствам"
+            },
+            "nullable": true
+          },
+          "запросыНаЗаменуs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ЗапросыНаЗамену"
+            },
+            "nullable": true
+          },
+          "создалNavigation": {
+            "$ref": "#/components/schemas/Пользователи"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Роли": {
+        "type": "object",
+        "properties": {
+          "idРоли": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "названиеРоли": {
+            "type": "string",
+            "nullable": true
+          },
+          "описание": {
+            "type": "string",
+            "nullable": true
+          },
+          "датаСоздания": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "назначенияРолейs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/НазначенияРолей"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Уведомления": {
+        "type": "object",
+        "properties": {
+          "idУведомления": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idПользователя": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "типУведомления": {
+            "type": "string",
+            "nullable": true
+          },
+          "заголовок": {
+            "type": "string",
+            "nullable": true
+          },
+          "сообщение": {
+            "type": "string",
+            "nullable": true
+          },
+          "прочитано": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "датаСоздания": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "датаОтправки": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "idПользователяNavigation": {
+            "$ref": "#/components/schemas/Пользователи"
+          }
+        },
+        "additionalProperties": false
+      },
+      "УчебныеГруппы": {
+        "type": "object",
+        "properties": {
+          "idГруппы": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "названиеГруппы": {
+            "type": "string",
+            "nullable": true
+          },
+          "курс": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "факультет": {
+            "type": "string",
+            "nullable": true
+          },
+          "датаСоздания": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "пропускиs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Пропуски"
+            },
+            "nullable": true
+          },
+          "расписаниеДежурствs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/РасписаниеДежурств"
+            },
+            "nullable": true
+          },
+          "членствоВгруппахs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ЧленствоВгруппах"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ЧленствоВгруппах": {
+        "type": "object",
+        "properties": {
+          "idЧленства": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idПользователя": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idГруппы": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "датаВступления": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "активен": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "idГруппыNavigation": {
+            "$ref": "#/components/schemas/УчебныеГруппы"
+          },
+          "idПользователяNavigation": {
+            "$ref": "#/components/schemas/Пользователи"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

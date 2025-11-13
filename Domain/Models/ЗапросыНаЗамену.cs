@@ -1,0 +1,37 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace Domain.Models;
+
+public partial class ЗапросыНаЗамену
+{
+    public int IdЗапроса { get; set; }
+
+    public int IdЗапрашивающего { get; set; }
+
+    public int IdЗаменяющего { get; set; }
+
+    public int IdДежурства { get; set; }
+
+    public DateOnly? НоваяДата { get; set; }
+
+    public string? Статус { get; set; }
+
+    public string? КомментарийЗапроса { get; set; }
+
+    public string? КомментарийОтвета { get; set; }
+
+    public int? Одобрил { get; set; }
+
+    public DateTime? ДатаСоздания { get; set; }
+
+    public DateTime? ДатаОбновления { get; set; }
+
+    public virtual РасписаниеДежурств IdДежурстваNavigation { get; set; } = null!;
+
+    public virtual Пользователи IdЗаменяющегоNavigation { get; set; } = null!;
+
+    public virtual Пользователи IdЗапрашивающегоNavigation { get; set; } = null!;
+
+    public virtual Пользователи? ОдобрилNavigation { get; set; }
+}
